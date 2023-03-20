@@ -1,0 +1,78 @@
+/* Estilos para la sección Quiénes Somos */
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 40px;
+  }
+  
+  .vision-mision {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-bottom: 40px;
+  }
+  
+  .vision-mision .vision,
+  .vision-mision .mision {
+    width: 48%;
+  }
+  
+  .vision-mision h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .vision-mision p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 40px;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .profile h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
