@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { FuterComponent } from './futer/futer.component';
 import { HederComponent } from './heder/heder.component';
 import { LoginComponent } from './login/login.component';
+import { SomosComponent } from './somos/somos.component';
+import { EstablecimientosComponent } from './establecimientos/establecimientos.component';
+import { ReservasComponent } from './reservas/reservas.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FuterComponent,
     HederComponent,
-    LoginComponent
+    LoginComponent,
+    SomosComponent,
+    EstablecimientosComponent,
+    ReservasComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
